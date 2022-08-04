@@ -1,0 +1,6 @@
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+--------------------------------------------------------------------------
+Open RTE was unable to open the hostfile:
+    cluster2
+Check to make sure the path and filename are correct.
+--------------------------------------------------------------------------

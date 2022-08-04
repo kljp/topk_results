@@ -1,0 +1,310 @@
+==========================================
+SLURM_JOB_ID = 129103
+SLURM_NODELIST = gpu04
+==========================================
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+CifarResNet : Depth : 20 , Layers for each block : 3
+CifarResNet : Depth : 20 , Layers for each block : 3
+CifarResNet : Depth : 20 , Layers for each block : 3
+CifarResNet : Depth : 20 , Layers for each block : 3
+CifarResNet : Depth : 20 , Layers for each block : 3
+CifarResNet : Depth : 20 , Layers for each block : 3
+CifarResNet : Depth : 20 , Layers for each block : 3
+CifarResNet : Depth : 20 , Layers for each block : 3
+gpu04:105238:106018 [0] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105238:106018 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105238:106018 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105238:106018 [0] NCCL INFO Using network IB
+NCCL version 2.8.4+cuda11.2
+gpu04:105242:106021 [4] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105242:106021 [4] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105239:106016 [1] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105239:106016 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105240:106017 [2] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105245:106014 [7] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105241:106015 [3] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105244:106019 [6] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105243:106020 [5] NCCL INFO Bootstrap : Using ib0:10.159.0.4<0>
+gpu04:105245:106014 [7] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105241:106015 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105240:106017 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105244:106019 [6] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105243:106020 [5] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+gpu04:105242:106021 [4] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105242:106021 [4] NCCL INFO Using network IB
+gpu04:105239:106016 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105239:106016 [1] NCCL INFO Using network IB
+gpu04:105243:106020 [5] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105243:106020 [5] NCCL INFO Using network IB
+gpu04:105245:106014 [7] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105245:106014 [7] NCCL INFO Using network IB
+gpu04:105240:106017 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105240:106017 [2] NCCL INFO Using network IB
+gpu04:105244:106019 [6] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105244:106019 [6] NCCL INFO Using network IB
+gpu04:105241:106015 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_2:1/IB ; OOB ib0:10.159.0.4<0>
+gpu04:105241:106015 [3] NCCL INFO Using network IB
+gpu04:105244:106019 [6] NCCL INFO Trees [0] 4/-1/-1->6->7 [1] 4/-1/-1->6->7 [2] 7/-1/-1->6->4 [3] 7/-1/-1->6->4 [4] 5/-1/-1->6->2 [5] 2/-1/-1->6->5 [6] 4/-1/-1->6->7 [7] 4/-1/-1->6->7 [8] 7/-1/-1->6->4 [9] 7/-1/-1->6->4 [10] 5/-1/-1->6->2 [11] 2/-1/-1->6->5
+gpu04:105244:106019 [6] NCCL INFO Setting affinity for GPU 6 to ffff0000
+gpu04:105245:106014 [7] NCCL INFO Trees [0] 6/-1/-1->7->5 [1] 6/-1/-1->7->5 [2] 5/-1/-1->7->6 [3] 5/-1/-1->7->6 [4] 3/-1/-1->7->4 [5] 4/-1/-1->7->3 [6] 6/-1/-1->7->5 [7] 6/-1/-1->7->5 [8] 5/-1/-1->7->6 [9] 5/-1/-1->7->6 [10] 3/-1/-1->7->4 [11] 4/-1/-1->7->3
+gpu04:105238:106018 [0] NCCL INFO Channel 00/12 :    0   2   3   1   5   7   6   4
+gpu04:105238:106018 [0] NCCL INFO Channel 01/12 :    0   2   3   1   5   7   6   4
+gpu04:105238:106018 [0] NCCL INFO Channel 02/12 :    0   4   6   7   5   1   3   2
+gpu04:105238:106018 [0] NCCL INFO Channel 03/12 :    0   4   6   7   5   1   3   2
+gpu04:105238:106018 [0] NCCL INFO Channel 04/12 :    0   1   2   6   5   4   7   3
+gpu04:105238:106018 [0] NCCL INFO Channel 05/12 :    0   3   7   4   5   6   2   1
+gpu04:105238:106018 [0] NCCL INFO Channel 06/12 :    0   2   3   1   5   7   6   4
+gpu04:105238:106018 [0] NCCL INFO Channel 07/12 :    0   2   3   1   5   7   6   4
+gpu04:105238:106018 [0] NCCL INFO Channel 08/12 :    0   4   6   7   5   1   3   2
+gpu04:105238:106018 [0] NCCL INFO Channel 09/12 :    0   4   6   7   5   1   3   2
+gpu04:105238:106018 [0] NCCL INFO Channel 10/12 :    0   1   2   6   5   4   7   3
+gpu04:105238:106018 [0] NCCL INFO Channel 11/12 :    0   3   7   4   5   6   2   1
+gpu04:105243:106020 [5] NCCL INFO Trees [0] 7/-1/-1->5->1 [1] 7/-1/-1->5->1 [2] 1/-1/-1->5->7 [3] 1/-1/-1->5->7 [4] 4/-1/-1->5->6 [5] 6/-1/-1->5->4 [6] 7/-1/-1->5->1 [7] 7/-1/-1->5->1 [8] 1/-1/-1->5->7 [9] 1/-1/-1->5->7 [10] 4/-1/-1->5->6 [11] 6/-1/-1->5->4
+gpu04:105243:106020 [5] NCCL INFO Setting affinity for GPU 5 to ffff0000
+gpu04:105242:106021 [4] NCCL INFO Trees [0] -1/-1/-1->4->6 [1] -1/-1/-1->4->6 [2] 6/-1/-1->4->0 [3] 6/-1/-1->4->0 [4] 7/-1/-1->4->5 [5] 5/-1/-1->4->7 [6] -1/-1/-1->4->6 [7] -1/-1/-1->4->6 [8] 6/-1/-1->4->0 [9] 6/-1/-1->4->0 [10] 7/-1/-1->4->5 [11] 5/-1/-1->4->7
+gpu04:105242:106021 [4] NCCL INFO Setting affinity for GPU 4 to ffff0000
+gpu04:105239:106016 [1] NCCL INFO Trees [0] 5/-1/-1->1->3 [1] 5/-1/-1->1->3 [2] 3/-1/-1->1->5 [3] 3/-1/-1->1->5 [4] 2/-1/-1->1->0 [5] -1/-1/-1->1->2 [6] 5/-1/-1->1->3 [7] 5/-1/-1->1->3 [8] 3/-1/-1->1->5 [9] 3/-1/-1->1->5 [10] 2/-1/-1->1->0 [11] -1/-1/-1->1->2
+gpu04:105239:106016 [1] NCCL INFO Setting affinity for GPU 1 to ffff
+gpu04:105245:106014 [7] NCCL INFO Setting affinity for GPU 7 to ffff0000
+gpu04:105241:106015 [3] NCCL INFO Trees [0] 1/-1/-1->3->2 [1] 1/-1/-1->3->2 [2] 2/-1/-1->3->1 [3] 2/-1/-1->3->1 [4] -1/-1/-1->3->7 [5] 7/-1/-1->3->0 [6] 1/-1/-1->3->2 [7] 1/-1/-1->3->2 [8] 2/-1/-1->3->1 [9] 2/-1/-1->3->1 [10] -1/-1/-1->3->7 [11] 7/-1/-1->3->0
+gpu04:105241:106015 [3] NCCL INFO Setting affinity for GPU 3 to ffff
+gpu04:105240:106017 [2] NCCL INFO Trees [0] 3/-1/-1->2->0 [1] 3/-1/-1->2->0 [2] -1/-1/-1->2->3 [3] -1/-1/-1->2->3 [4] 6/-1/-1->2->1 [5] 1/-1/-1->2->6 [6] 3/-1/-1->2->0 [7] 3/-1/-1->2->0 [8] -1/-1/-1->2->3 [9] -1/-1/-1->2->3 [10] 6/-1/-1->2->1 [11] 1/-1/-1->2->6
+gpu04:105240:106017 [2] NCCL INFO Setting affinity for GPU 2 to ffff
+gpu04:105238:106018 [0] NCCL INFO Trees [0] 2/-1/-1->0->-1 [1] 2/-1/-1->0->-1 [2] 4/-1/-1->0->-1 [3] 4/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] 3/-1/-1->0->-1 [6] 2/-1/-1->0->-1 [7] 2/-1/-1->0->-1 [8] 4/-1/-1->0->-1 [9] 4/-1/-1->0->-1 [10] 1/-1/-1->0->-1 [11] 3/-1/-1->0->-1
+gpu04:105238:106018 [0] NCCL INFO Setting affinity for GPU 0 to ffff
+gpu04:105242:106021 [4] NCCL INFO Channel 05 : 4[b6000] -> 5[b7000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 11 : 4[b6000] -> 5[b7000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 02 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 05 : 5[b7000] -> 6[df000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 03 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 00 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 11 : 5[b7000] -> 6[df000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 08 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 01 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 09 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 06 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 02 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 04 : 0[1f000] -> 1[20000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 07 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 03 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 10 : 0[1f000] -> 1[20000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 08 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 04 : 1[20000] -> 2[65000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 00 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 09 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 10 : 1[20000] -> 2[65000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 01 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 06 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 07 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 00 : 0[1f000] -> 2[65000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 01 : 0[1f000] -> 2[65000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 02 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 06 : 0[1f000] -> 2[65000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 03 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 07 : 0[1f000] -> 2[65000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 08 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 09 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 04 : 4[b6000] -> 7[e0000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 05 : 0[1f000] -> 3[66000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 10 : 4[b6000] -> 7[e0000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 05 : 6[df000] -> 2[65000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 11 : 0[1f000] -> 3[66000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 02 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 11 : 6[df000] -> 2[65000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 04 : 2[65000] -> 6[df000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 00 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 03 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 10 : 2[65000] -> 6[df000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 08 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 01 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 04 : 7[e0000] -> 3[66000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 09 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 06 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 05 : 3[66000] -> 7[e0000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 10 : 7[e0000] -> 3[66000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 07 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 11 : 3[66000] -> 7[e0000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 00 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 00 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 02 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 02 : 0[1f000] -> 4[b6000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 01 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 01 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 03 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 03 : 0[1f000] -> 4[b6000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 06 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 06 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 08 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 08 : 0[1f000] -> 4[b6000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 07 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 07 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 09 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 04 : 3[66000] -> 0[1f000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 05 : 7[e0000] -> 4[b6000] via P2P/IPC
+gpu04:105238:106018 [0] NCCL INFO Channel 09 : 0[1f000] -> 4[b6000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 11 : 7[e0000] -> 4[b6000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 10 : 3[66000] -> 0[1f000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 02 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 00 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 03 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 01 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 08 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 06 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 09 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 07 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 00 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 02 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 01 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 03 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 05 : 1[20000] -> 0[1f000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 04 : 5[b7000] -> 4[b6000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 06 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 08 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 11 : 1[20000] -> 0[1f000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 10 : 5[b7000] -> 4[b6000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 09 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 07 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 05 : 2[65000] -> 1[20000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 04 : 6[df000] -> 5[b7000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Connected all rings
+gpu04:105238:106018 [0] NCCL INFO Connected all rings
+gpu04:105240:106017 [2] NCCL INFO Channel 11 : 2[65000] -> 1[20000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 10 : 6[df000] -> 5[b7000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 04 : 4[b6000] -> 5[b7000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 10 : 4[b6000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Connected all rings
+gpu04:105239:106016 [1] NCCL INFO Connected all rings
+gpu04:105245:106014 [7] NCCL INFO Connected all rings
+gpu04:105243:106020 [5] NCCL INFO Connected all rings
+gpu04:105239:106016 [1] NCCL INFO Channel 05 : 1[20000] -> 2[65000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Connected all rings
+gpu04:105244:106019 [6] NCCL INFO Connected all rings
+gpu04:105239:106016 [1] NCCL INFO Channel 11 : 1[20000] -> 2[65000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 04 : 5[b7000] -> 6[df000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 10 : 5[b7000] -> 6[df000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 02 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 00 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 03 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 01 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 08 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 06 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 00 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 09 : 2[65000] -> 3[66000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 07 : 6[df000] -> 7[e0000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 01 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 06 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 07 : 4[b6000] -> 6[df000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 00 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 01 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 02 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 06 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 03 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 07 : 1[20000] -> 3[66000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 08 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 09 : 5[b7000] -> 7[e0000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 05 : 2[65000] -> 6[df000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 11 : 2[65000] -> 6[df000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 05 : 4[b6000] -> 7[e0000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 11 : 4[b6000] -> 7[e0000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 04 : 3[66000] -> 7[e0000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 04 : 6[df000] -> 2[65000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 10 : 3[66000] -> 7[e0000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 02 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 00 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 10 : 6[df000] -> 2[65000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 02 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 03 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 01 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 03 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 08 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 06 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 05 : 7[e0000] -> 3[66000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 08 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 09 : 1[20000] -> 5[b7000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 07 : 5[b7000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 11 : 7[e0000] -> 3[66000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Channel 09 : 4[b6000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 02 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 00 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 03 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 01 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 08 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 06 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 09 : 6[df000] -> 4[b6000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 07 : 2[65000] -> 0[1f000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 04 : 7[e0000] -> 4[b6000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 05 : 3[66000] -> 0[1f000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 10 : 7[e0000] -> 4[b6000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 11 : 3[66000] -> 0[1f000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 00 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 02 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 01 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 03 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 06 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 08 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 07 : 7[e0000] -> 5[b7000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 09 : 3[66000] -> 1[20000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 02 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 00 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 03 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 01 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 08 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 05 : 5[b7000] -> 4[b6000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 04 : 1[20000] -> 0[1f000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 06 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105239:106016 [1] NCCL INFO Channel 10 : 1[20000] -> 0[1f000] via P2P/IPC
+gpu04:105243:106020 [5] NCCL INFO Channel 11 : 5[b7000] -> 4[b6000] via P2P/IPC
+gpu04:105241:106015 [3] NCCL INFO Channel 07 : 3[66000] -> 2[65000] via P2P/IPC
+gpu04:105245:106014 [7] NCCL INFO Channel 09 : 7[e0000] -> 6[df000] via P2P/IPC
+gpu04:105240:106017 [2] NCCL INFO Channel 04 : 2[65000] -> 1[20000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 05 : 6[df000] -> 5[b7000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO Connected all trees
+gpu04:105242:106021 [4] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105238:106018 [0] NCCL INFO Connected all trees
+gpu04:105238:106018 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105240:106017 [2] NCCL INFO Channel 10 : 2[65000] -> 1[20000] via P2P/IPC
+gpu04:105244:106019 [6] NCCL INFO Channel 11 : 6[df000] -> 5[b7000] via P2P/IPC
+gpu04:105242:106021 [4] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105242:106021 [4] NCCL INFO comm 0x2b672c0c8e60 rank 4 nranks 8 cudaDev 4 busId b6000 - Init COMPLETE
+gpu04:105238:106018 [0] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105241:106015 [3] NCCL INFO Connected all trees
+gpu04:105241:106015 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105245:106014 [7] NCCL INFO Connected all trees
+gpu04:105238:106018 [0] NCCL INFO comm 0x2b8ce80f7f00 rank 0 nranks 8 cudaDev 0 busId 1f000 - Init COMPLETE
+gpu04:105245:106014 [7] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105239:106016 [1] NCCL INFO Connected all trees
+gpu04:105239:106016 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105243:106020 [5] NCCL INFO Connected all trees
+gpu04:105243:106020 [5] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105240:106017 [2] NCCL INFO Connected all trees
+gpu04:105240:106017 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105244:106019 [6] NCCL INFO Connected all trees
+gpu04:105244:106019 [6] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+gpu04:105245:106014 [7] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105245:106014 [7] NCCL INFO comm 0x2b1d480c8dd0 rank 7 nranks 8 cudaDev 7 busId e0000 - Init COMPLETE
+gpu04:105239:106016 [1] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105243:106020 [5] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105239:106016 [1] NCCL INFO comm 0x2b1ee00c9390 rank 1 nranks 8 cudaDev 1 busId 20000 - Init COMPLETE
+gpu04:105241:106015 [3] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105243:106020 [5] NCCL INFO comm 0x2b02d40c9410 rank 5 nranks 8 cudaDev 5 busId b7000 - Init COMPLETE
+gpu04:105240:106017 [2] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105244:106019 [6] NCCL INFO 12 coll channels, 16 p2p channels, 2 p2p channels per peer
+gpu04:105240:106017 [2] NCCL INFO comm 0x2b20140c89e0 rank 2 nranks 8 cudaDev 2 busId 65000 - Init COMPLETE
+gpu04:105241:106015 [3] NCCL INFO comm 0x2b53cc0c92d0 rank 3 nranks 8 cudaDev 3 busId 66000 - Init COMPLETE
+gpu04:105244:106019 [6] NCCL INFO comm 0x2b3d780c8ec0 rank 6 nranks 8 cudaDev 6 busId df000 - Init COMPLETE
+gpu04:105238:106018 [0] NCCL INFO Launch mode Parallel
