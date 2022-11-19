@@ -7,7 +7,10 @@ args = parser.parse_args()
 
 f = open(args.job, 'r')
 
-job = args.job.split('_')
+sp = args.job.split('results/')
+origin = sp[1]
+
+job = origin.split('_')
 task = job[0]
 reducer = job[2]
 
@@ -72,9 +75,6 @@ while True:
             bits.append(str(bit.group(1)))
 
 f.close()
-
-sp = args.job.split('results/')
-origin = sp[1]
 
 fn_accuracy = './parsed_results/accuracy/accuracy-' + origin
 with open(fn_accuracy, 'w') as f2:

@@ -7,6 +7,9 @@ args = parser.parse_args()
 
 f = open(args.job, 'r')
 
+sp = args.job.split('results2/')
+origin = sp[1]
+
 rank0 = []
 rank1 = []
 rank2 = []
@@ -43,9 +46,6 @@ for i in range(size_max):
     error.append(str((float(rank0[i]) + float(rank1[i]) + float(rank2[i]) + float(rank3[i])) / 4.0))
 
 f.close()
-
-sp = args.job.split('results2/')
-origin = sp[1]
 
 fn_error = './parsed_results/error/error-' + origin
 with open(fn_error, 'w') as f2:
