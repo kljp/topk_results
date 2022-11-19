@@ -22,7 +22,7 @@ prop = 0
 while True:
     line = f.readline()
     if not line: break
-    if line.find('py:90'):
+    if line.find('py:90') != -1:
         m = re.search('Speed: (.*?) images', line)
         if m is not None:
             m2 = str(m.group(1))
@@ -30,14 +30,14 @@ while True:
                 #print(float(m2))
                 cnt_speed = cnt_speed + 1
                 speed = speed + float(m2)
-    if line.find('py:822'):
+    if line.find('py:822') != -1:
         ls = re.search('val loss: (.*?),', line)
         if ls is not None:
             loss.append(str(ls.group(1)))
         ac = re.search('top-1 acc: (.*?),', line)
         if ac is not None:
             acc.append(str(ac.group(1)))
-    if line.find('py:731'):
+    if line.find('py:731') != -1:
         m = re.search('forward \((.*?)\)', line)
         n = re.search('backward \((.*?)\)', line)
         if m is not None and n is not None:
@@ -54,13 +54,13 @@ comp = 0
 while True:
     line = f2.readline()
     if not line: break
-    if line.find('COMP=*.'):
+    if line.find('COMP=*.') != -1:
         m = re.search('COMP=(.*?)\n', line)
         if m is not None:
             m2 = str(m.group(1))
             cnt_comp = cnt_comp + 1
             comp = comp + float(m2)
-    if line.find('COMM_TOTAL=*.'):
+    if line.find('COMM_TOTAL=*.') != -1:
         m = re.search('COMM_TOTAL=(.*?),', line)
         if m is not None:
             m2 = str(m.group(1))

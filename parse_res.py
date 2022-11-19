@@ -17,7 +17,7 @@ acc = []
 while True:
     line = f.readline()
     if not line: break
-    if line.find('py:90'):
+    if line.find('py:90') != -1:
         m = re.search('Speed: (.*?) images', line)
         if m is not None:
             m2 = str(m.group(1))
@@ -25,7 +25,7 @@ while True:
                 #print(float(m2))
                 cnt_speed = cnt_speed + 1
                 speed = speed + float(m2)
-    if line.find('py:822'):
+    if line.find('py:822') != -1:
         ls = re.search('val loss: (.*?),', line)
         if ls is not None:
             loss.append(str(ls.group(1)))
