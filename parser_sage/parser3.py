@@ -20,8 +20,8 @@ while True:
     if not line: break
     cnt = cnt + 1
     acc = acc + float(line)
-    if cnt % 48 == 0:
-        acc = acc / 48.0
+    if cnt % 94 == 0:
+        acc = acc / 94.0
         denepo.append(str(acc))
         acc = 0.0
 
